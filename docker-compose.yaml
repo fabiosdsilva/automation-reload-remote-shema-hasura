@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+
+  postgres:
+    image: fabiosdsilva/automation-reload-remote-shema-hasura:0.1
+    container_name: automation-reload-remote-shema-hasura
+    restart: always
+    env_file:
+      - ./.env
+    volumes:
+      - ./output:/output

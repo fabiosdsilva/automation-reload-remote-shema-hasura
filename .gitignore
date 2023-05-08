@@ -1,0 +1,7 @@
+## Default files
+.env
+.vscode/
+node_modules/
+
+## Files system
+output/
